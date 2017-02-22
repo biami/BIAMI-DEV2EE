@@ -1,0 +1,8 @@
+Stage	Generic Task Description	Technical Task Description	Script	
+0	BIAMI DEV2EE	[replace]	do_nothing	
+1	sync folders	db	run_command	runcommand=rsync -a ../db |||tomcat|||db
+2		plugins	run_command	runcommand=rsync -a ../plugins |||tomcat|||plugins
+3		repo	run_command	runcommand=rsync -a ../repo |||tomcat|||repo
+4		help	run_command	runcommand=rsync -a ../help |||tomcat|||help
+				
+p	tomcat	/Volumes/DATA/test/tomcat/		
