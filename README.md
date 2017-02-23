@@ -5,7 +5,7 @@ Requirements:
 Linux or Unix
 
 Paramteres:
-- tomcat
+  tomcat
   Specify BIAMI EE tomcat folder
   Example 1 (local): "/var/www/html/"
   Example 2 (remote with ssh keys set up previously): "username@remote_host:/var/www/html/"
